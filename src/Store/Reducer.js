@@ -1,7 +1,16 @@
-import React from 'react';
+import {ActionSetContacts} from "./Action";
 
-const Reducer = (props) => (
-    <div>d</div>
-);
+const initialState = {
+    contacts: [],
+};
 
-export default Reducer;
+const reducer = (state = initialState, action) => {
+    switch (action.type) {
+        case ActionSetContacts:
+            return {...state, contacts: action.payload};
+        default:
+            return state
+    }
+}
+
+export default reducer;

@@ -33,8 +33,7 @@ const AddContact = (props) => {
 
                 <div>
                     <label>Photo preview:</label>
-                    <img className="img"
-                         src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-3.jpg" alt="img"/>
+                    <img className="img" src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-3.jpg" alt="img"/>
                 </div>
 
                 <div className="btns">
